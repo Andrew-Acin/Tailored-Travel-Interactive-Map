@@ -1,0 +1,26 @@
+h1 {
+    color: #004466;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: beige;
+    color: #004466;
+    flex-wrap: wrap;
+}
+
+.body-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#map {
+    height: 70vh;
+    width: 90vw;
+    background-color: lightgray;
+}

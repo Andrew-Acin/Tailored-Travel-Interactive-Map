@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <title>Tailored Travel</title>
+</head>
+
+<body>
+
+    <div class="body-items">
+        <h1>Welcome to Tailored Travel</h1>
+
+
+        <label>What would you like to see nearby?</label>
+        <br>
+        <select id="locations" name="locations">
+            <option value="null">Please select an option</option>
+            <option value="coffee">coffee</option>
+            <option value="resturants">resturants</option>
+            <option value="hotels">hotels</option>
+            <option value="markets">markets</option>
+        </select>
+        <br>
+        <!-- input selection -->
+    </div>
+    <!-- map to go here -->
+    <div id="map"></div>
+
+    <script src="assets/map.js"></script>
+</body>
+
+</html>
